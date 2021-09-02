@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E5EE477B-83D2-48C5-9DE2-79D3E4050CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Masdr", "Masdr", "{47F557D0-C48C-45F8-8019-2D1850EB79EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masdr.API", "Service\Masdr\Masdr.API\Masdr.API.csproj", "{516CE879-9419-4735-80C8-AF262F4442A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCuttingConcerns", "CrossCuttingConcerns", "{8AB2CC99-5DEB-422D-8390-B580E74A5AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "CrossCuttingConcerns\EventBus.Messages\EventBus.Messages.csproj", "{C5140AC2-4727-4B50-B741-03EBFBDCD3D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{516CE879-9419-4735-80C8-AF262F4442A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516CE879-9419-4735-80C8-AF262F4442A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516CE879-9419-4735-80C8-AF262F4442A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516CE879-9419-4735-80C8-AF262F4442A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5140AC2-4727-4B50-B741-03EBFBDCD3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5140AC2-4727-4B50-B741-03EBFBDCD3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5140AC2-4727-4B50-B741-03EBFBDCD3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5140AC2-4727-4B50-B741-03EBFBDCD3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47F557D0-C48C-45F8-8019-2D1850EB79EA} = {E5EE477B-83D2-48C5-9DE2-79D3E4050CDA}
+		{516CE879-9419-4735-80C8-AF262F4442A5} = {47F557D0-C48C-45F8-8019-2D1850EB79EA}
+		{C5140AC2-4727-4B50-B741-03EBFBDCD3D4} = {8AB2CC99-5DEB-422D-8390-B580E74A5AB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E8222D-67A9-4212-9104-6C43C9AFF89F}
+	EndGlobalSection
+EndGlobal
